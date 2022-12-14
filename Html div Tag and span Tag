@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>HTML template</title>
+</head>
+<body>
+<div>HELLO<span><em>hello</em> <strong>INDIA</strong></span>WORLD</div>
+<div>HELLO<span>hello INDIA</span><span>hello INDIA</span>WORLD</div>
+
+<span>hello INDIA</span>
+<span>hello INDIA</span>
+</body>
+</html>
