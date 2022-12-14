@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>HTML template</title>
+</head>
+<body>
+<ul>
+  <li>Home</li>
+  <li>About</li>
+  <li>Link</li>
+  <li>Contact</li>
+</ul>
+<ul style="list-style-type:circle">
+  <li>Home</li>
+  <li>About</li>
+  <li>Link</li>
+  <li>Contact</li>
+</ul>
+<ul style="list-style-type:decimal">
+  <li>Home</li>
+  <li>About</li>
+  <li>Link</li>
+  <li>Contact</li>
+</ul>
+<ul style="list-style-type:none">
+  <li>Home</li>
+  <li>About</li>
+  <li>Link</li>
+  <li>Contact</li>
+</ul>
+<ul style="list-style-type:square">
+  <li>Home</li>
+  <li>About</li>
+  <li>Link</li>
+  <li>Contact</li>
+</ul>
+<ol>
+  <li>Home</li>
+  <li>About</li>
+  <li>Link</li>
+  <li>Contact</li>
+</ol>
+<ol type="I">
+  <li>Home</li>
+  <li>About</li>
+  <li>Link</li>
+  <li>Contact</li>
+</ol>
+<ol type="A">
+  <li>Home</li>
+  <li>About</li>
+  <li>Link</li>
+  <li>Contact</li>
+</ol>
+<ol type="a">
+  <li>Home</li>
+  <li>About</li>
+  <li>Link</li>
+  <li>Contact</li>
+</ol>
+
+<table border=1>
+  <tr>
+    <th>First</th>
+    <th>Second</th>
+    <th>Third</th>
+  </tr>
+  <tr>
+    <td>Java</td>
+    <td>Html</td>
+    <td>CSS</td>
+  </tr>
+  <tr>
+    <td>Java</td>
+    <td>Html</td>
+    <td>CSS</td>
+  </tr>
+</table>
+</body>
+</html>
