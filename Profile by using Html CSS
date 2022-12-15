@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>calculator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="container">
+		<div class="card card0">
+			<div class="border">
+				<h2>CodewirhAmol</h2>
+				<div class="icons">
+					<a href="https://www.instagram.com/amol_speak_96k/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+					<a href="http://www.facebook.com"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+					<a href="https://twitter.com/amolspeaks7"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
+
+
+
+
+.container{
+	height: 500vh;
+	width: 500vw;
+	max-height: 800px;
+	max-width: 1280px;
+	min-height: 600px;
+	min-width: 1000px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin: 0 auto;
+}
+.border{
+	height: 370px;
+	width: 290px;
+	background: transparent;
+	border-radius: 10px;
+	transition: border 5s;
+	position: relative;
+}
+.border:hover{
+	border: 1px solid pink;
+}
+.card{
+	height: 380px;
+	width: 300px;
+	background: #808080;
+	border-radius: 10px;
+	transition: background 0.8s;
+	overflow: hidden;
+	background: #000;
+	box-shadow: 0 70px 63px -60px #000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+.card0{
+	background: url("https://pbs.twimg.com/media/E2YtmP9VIAMZAP6?format=jpg&name=medium") center center no-repeat;
+	background-size: 400px;
+}
+.card0:hover{
+	background: url("https://pbs.twimg.com/media/E2YtmP9VIAMZAP6?format=jpg&name=medium") left center no-repeat;
+	background-size: 450px;	
+}
+.card0:hover h2{
+	opacity: 1;
+}
+.card0:hover .fa{
+	opacity: 1;
+}
+h2{
+	font-family: sans-serif;
+	color: darkred;
+	margin: 20px;
+	opacity: 0;
+	transition: opacity 5s;
+}
+.fa{
+	opacity: 0;
+	transition: opacity 3s;
+}
+.icons{
+	position: absolute;
+	fill: darkred;
+	color: darkred;
+	height: 100px;
+	width:50px;
+	top: 225px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
